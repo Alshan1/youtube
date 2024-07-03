@@ -1,0 +1,96 @@
+.scrollable-container {
+    white-space: nowrap; /* Prevent line breaks */
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-y: scroll; /* Hide vertical overflow */
+}
+/* style-dark.css */
+
+/* Body background and text color */
+body {
+    background-color: #181818;
+    color: #FFFFFF;
+}
+
+/* Navbar background and text color */
+.navbar {
+    background-color: #202020;
+    color: #FFFFFF;
+}
+
+/* Cards and containers background */
+.card {
+    background-color: #272727;
+    color: #FFFFFF;
+}
+
+/* Links and buttons color */
+a, .btn {
+    color: #FFFFFF;
+}
+
+/* Active and hover states */
+a:hover, .btn:hover {
+    opacity: 0.8;
+}
+
+/* Darker borders */
+.border {
+    border-color: #732d2d;
+}
+
+/* Additional styling specific to your elements */
+/* For example, adjust the navbar icons and search bar colors */
+
+/* Example specific adjustments */
+.navbar img {
+    filter: invert(1); /* Invert image colors for better visibility */
+}
+
+/* Adjustments for search bar */
+.search-bar {
+    background-color: #333333;
+    color: #FFFFFF;
+    border-radius: 20px; /* Rounded corners for input */
+}
+
+/* Adjustments for dark mode specific elements */
+.dark-mode-element {
+    /* Your custom dark mode styles here */
+}
+.scrollcont::-webkit-scrollbar {
+    width: 0px; /* Width of the scrollbar */
+    height: 0px; /* Height of the scrollbar */
+}
+.search-bar {
+    
+    border-radius: 7rem;
+    background-color: #212529; /* Dark background color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.search-input {
+    width: 75%;
+    border: none;
+    background-color: #212529; /* Dark background color */
+    color: white; /* White text color */
+    font-size: 1rem;
+}
+.card {
+    width: 18rem;
+    border: none;
+}
+.card-content {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.card-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+.card-text {
+    display: flex;
+    flex-direction: column;
+}
